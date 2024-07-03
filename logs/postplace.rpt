@@ -1,0 +1,84 @@
+////////////////////////////////////////////////////////////////////////////////
+// Impulse v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.4 LTS
+// Execution date:       ter jul 2 21:51:46 2024
+// Command line:         /opt/NanoXplore/impulse-23-3/bin/impulse 
+// Process ID:           18276
+////////////////////////////////////////////////////////////////////////////////
+
+22:05:28:info     |     Site of managers:
+22:05:28:info     |       <ITS "ITS[{~}:ITS~cle[4:2]]" Passive Useful Manager Locked> @ <HCFence "FENCE[T]" FOCUS[?x?] 1 0>
+22:05:28:info     |       <OTC "OTC[{~}:OTC~cle[4:1]]" Passive Useful Manager Locked> @ <VMFence "FENCE[Rx21]" FOCUS[?x?] 2 LOC[8]>
+22:05:28:info     |       <FCI "FCI[{~}:CI~sec[6:3]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <VMFence "FENCE[Rx21]" FOCUS[?x?] 2 LOC[8]>
+22:05:28:info     |       <TCO "TCO[{~}:CO~sec[6:2]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <TSI "TSI[{~}:SI~sec[6:1]]" Passive Useful Manager System Incoming> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage2[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage2]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage2[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage2]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage2[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage2]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage2[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage2]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage4[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage4]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage4[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage4]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage4[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage4]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage4[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage4]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage3[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage3]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage3[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage3]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage3[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage3]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage3[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage3]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage1[B1]]" Passive Useful Slave GROUP[4] 0xffff Prime Fifth:CY[{~}:add_L11_stage1]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage1[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage1]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage1[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage1]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage1[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage1]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage7[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage7]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage7[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage7]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage7[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage7]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage5[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage5]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage5[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage5]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage5[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage5]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage5[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage5]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage6[B1]]" Passive Useful Slave GROUP[4] 0x0000 Prime Fifth:CY[{~}:add_L11_stage6]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage6[B2]]" Passive Useful Slave GROUP[2] 0x0000 Prime Fifth:CY[{~}:add_L11_stage6]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage6[B3]]" Passive Useful Slave GROUP[3] 0x0000 Prime Fifth:CY[{~}:add_L11_stage6]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <LUT "LUT[{~}:add_L11_stage6[B4]]" Passive Useful Slave GROUP[1] 0x0000 Prime Fifth:CY[{~}:add_L11_stage6]> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[17]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[19]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[22]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[10]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[25]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[6]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[11]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[23]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[13]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[2]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[24]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[18]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[15]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[8]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[20]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[9]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[14]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[0]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[16]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[3]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[1]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[12]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[5]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[26]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[21]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[4]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <DFF "DFF[{~}:count_reg[7]]" Native Active Useful Slave> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage2]" Native Active Useful Leader Inner> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage4]" Native Active Useful Leader Inner> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage3]" Native Active Useful Leader Inner> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage1]" Native Active Useful Manager First> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage7]" Native Active Useful Leader Last Partial:3> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage5]" Native Active Useful Leader Inner> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <CY "CY[{~}:add_L11_stage6]" Native Active Useful Leader Inner> @ <Tile "TILE[25x12]" FOCUS[25x12] 63 Exposed>
+22:05:28:info     |       <IP "IP[{~}:clk]" Native Active Useful Manager Locked 0> @ <LBank "IOB0" FOCUS[?x?] 2>
+22:05:28:info     |       <OP "OP[{~}:led]" Native Active Useful Manager Locked 2> @ <RBank "IOB11" FOCUS[?x?] 3>
+22:05:28:info     |       <BFR "BFR[{~}:buf_c_clk]" Native Passive Useful Manager Locked> @ <LBank "IOB0" FOCUS[?x?] 2>
+22:05:28:info     |       <BFR "BFR[{~}:buf_c_led]" Native Passive Useful Manager Locked> @ <RBank "IOB11" FOCUS[?x?] 3>
+22:05:28:info     |       <BFR "BFR[{~}:buf_o_led]" Native Passive Useful Manager Locked> @ <RBank "IOB11" FOCUS[?x?] 3>
+22:05:28:info     |       <WFB "WFB[{~}:wfg_B_clk]" Native Passive Useful Manager Locked> @ <CKG "CKG1" FOCUS[?x?] 1>

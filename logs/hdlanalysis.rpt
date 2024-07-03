@@ -1,0 +1,152 @@
+////////////////////////////////////////////////////////////////////////////////
+// Impulse v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.4 LTS
+// Execution date:       ter jul 2 21:51:46 2024
+// Command line:         /opt/NanoXplore/impulse-23-3/bin/impulse 
+// Process ID:           18276
+////////////////////////////////////////////////////////////////////////////////
+
+21:59:29:info     |     ----------------------------------------------
+21:59:29:info     |     - HDL Source code analysis                   -
+21:59:29:info     |     ----------------------------------------------
+21:59:29:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+21:59:29:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+21:59:29:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+21:59:29:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+21:59:29:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+21:59:30:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+21:59:31:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:11:info     |     ----------------------------------------------
+22:00:11:info     |     - HDL Source code analysis                   -
+22:00:11:info     |     ----------------------------------------------
+22:00:11:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+22:00:11:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+22:00:11:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+22:00:11:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+22:00:11:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+22:00:11:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:11:info     |       /home/desktop/Projects/large-blinker/src/blink.v(13): previous definition of design element 'blinky' is here
+22:00:11:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:11:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:11:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:12:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:21:info     |     ----------------------------------------------
+22:00:21:info     |     - HDL Source code analysis                   -
+22:00:21:info     |     ----------------------------------------------
+22:00:21:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+22:00:21:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+22:00:21:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+22:00:21:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+22:00:21:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+22:00:22:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:22:info     |       /home/desktop/Projects/large-blinker/src/blink.v(13): previous definition of design element 'blinky' is here
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:22:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:23:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:46:info     |     ----------------------------------------------
+22:00:46:info     |     - HDL Source code analysis                   -
+22:00:46:info     |     ----------------------------------------------
+22:00:46:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+22:00:46:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+22:00:46:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+22:00:46:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+22:00:46:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+22:00:47:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:47:info     |       /home/desktop/Projects/large-blinker/src/blink.v(13): previous definition of design element 'blinky' is here
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:47:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:00:48:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:02:43:info     |     ----------------------------------------------
+22:02:43:info     |     - HDL Source code analysis                   -
+22:02:43:info     |     ----------------------------------------------
+22:02:43:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+22:02:43:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+22:02:43:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+22:02:43:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+22:02:43:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+22:02:43:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:02:43:info     |       /home/desktop/Projects/large-blinker/src/blink.v(13): previous definition of design element 'blinky' is here
+22:02:43:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:02:43:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:02:43:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:02:44:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:02:57:info     |     ----------------------------------------------
+22:02:57:info     |     - HDL Source code analysis                   -
+22:02:57:info     |     ----------------------------------------------
+22:02:57:info     |       Add Verilog Include Path: /home/desktop/Projects/large-blinker/src
+22:02:57:info     |       (0): VHDL library search path for library "std" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/std"
+22:02:57:info     |       (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/ieee"
+22:02:57:info     |       (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/synopsys"
+22:02:57:info     |       (0): VHDL library search path for library "vl" is now "/opt/NanoXplore/impulse-23-3/share/vhdl/vl"
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:02:58:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(12): analyzing package 'nxpackage'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+22:02:59:info     |       /opt/NanoXplore/impulse-23-3/share/variants/NG-LARGE/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+22:02:59:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(11): expression size 28 truncated to fit in target size 27

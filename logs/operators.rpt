@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Impulse v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.4 LTS
+// Execution date:       ter jul 2 21:51:46 2024
+// Command line:         /opt/NanoXplore/impulse-23-3/bin/impulse 
+// Process ID:           18276
+////////////////////////////////////////////////////////////////////////////////
+
+21:59:29:info     |     ----------------------------------------------
+21:59:29:info     |     - Operator Cells analysis                    -
+21:59:29:info     |     ----------------------------------------------
+22:00:11:info     |     ----------------------------------------------
+22:00:11:info     |     - Operator Cells analysis                    -
+22:00:11:info     |     ----------------------------------------------
+22:00:21:info     |     ----------------------------------------------
+22:00:21:info     |     - Operator Cells analysis                    -
+22:00:21:info     |     ----------------------------------------------
+22:00:46:info     |     ----------------------------------------------
+22:00:46:info     |     - Operator Cells analysis                    -
+22:00:46:info     |     ----------------------------------------------
+22:02:43:info     |     ----------------------------------------------
+22:02:43:info     |     - Operator Cells analysis                    -
+22:02:43:info     |     ----------------------------------------------
+22:02:57:info     |     ----------------------------------------------
+22:02:57:info     |     - Operator Cells analysis                    -
+22:02:57:info     |     ----------------------------------------------
+22:02:59:info     |       
+22:02:59:info     |       Operator 'add_27u_27u'
+22:02:59:info     |       	 : add_L11	(line 11 in /home/desktop/Projects/large-blinker/src/blink.v)
+22:02:59:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:02:59:info     |   // Synthesized Data
+22:02:59:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:02:59:info     |   Synthesized Operators : 
+22:02:59:info     |   
+22:02:59:info     |   Operator'add_27u_27u'
+22:02:59:info     |   	 : add_L11	(line 11 in /home/desktop/Projects/large-blinker/src/blink.v)
+22:02:59:info     |     
+22:02:59:info     |     ----------------------------------------------
+22:02:59:info     |     - Operator Instances processing              -
+22:02:59:info     |     ----------------------------------------------
+22:03:00:info     |       Adder add_L11 can be mapped as:
+22:03:00:info     |       35 LUTs with a depth of 9 levels
+22:03:00:info     |       
+22:03:00:info     |         Adder add_L11
+22:03:00:info     |         	Will be mapped into a CY  chain
+22:03:00:info     |         Standard Map into CY   [ FE: 0 CY: 7 DSP: 0 ] for: add_L11
+22:03:00:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:03:00:info     |   // Mapped Data
+22:03:00:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:03:00:info     |   Mapped Operators : 
+22:03:00:info     |   
+22:03:00:info     |   Adder add_L11
+22:03:00:info     |   	Will be mapped into a CY  chain
+22:03:00:info     |   	[ FE: 0 CY: 7 DSP: 0 ]
+22:03:00:info     |   
+22:03:00:info     |   Design instanciates [ FE: 0 CY: 7 DSP: 0 ]

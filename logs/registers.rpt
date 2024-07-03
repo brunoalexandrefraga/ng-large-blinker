@@ -1,0 +1,135 @@
+////////////////////////////////////////////////////////////////////////////////
+// Impulse v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.4 LTS
+// Execution date:       ter jul 2 21:51:46 2024
+// Command line:         /opt/NanoXplore/impulse-23-3/bin/impulse 
+// Process ID:           18276
+////////////////////////////////////////////////////////////////////////////////
+
+22:02:59:info     |     ----------------------------------------------
+22:02:59:info     |     - Register Instances processing              -
+22:02:59:info     |     ----------------------------------------------
+22:02:59:info     |       DFF count_reg[0] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[1] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[2] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[3] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[4] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[5] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[6] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[7] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[8] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[9] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[10] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[11] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[12] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[13] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[14] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[15] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[16] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[17] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[18] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[19] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[20] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[21] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[22] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[23] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[24] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[25] has INITIAL Value: 0
+22:02:59:info     |       DFF count_reg[26] has INITIAL Value: 0
+22:03:00:info     |       HDL Init on count_reg[26]
+22:03:00:info     |       HDL Init on count_reg[25]
+22:03:00:info     |       HDL Init on count_reg[24]
+22:03:00:info     |       HDL Init on count_reg[23]
+22:03:00:info     |       HDL Init on count_reg[22]
+22:03:00:info     |       HDL Init on count_reg[21]
+22:03:00:info     |       HDL Init on count_reg[20]
+22:03:00:info     |       HDL Init on count_reg[19]
+22:03:00:info     |       HDL Init on count_reg[18]
+22:03:00:info     |       HDL Init on count_reg[17]
+22:03:00:info     |       HDL Init on count_reg[16]
+22:03:00:info     |       HDL Init on count_reg[15]
+22:03:00:info     |       HDL Init on count_reg[14]
+22:03:00:info     |       HDL Init on count_reg[13]
+22:03:00:info     |       HDL Init on count_reg[12]
+22:03:00:info     |       HDL Init on count_reg[11]
+22:03:00:info     |       HDL Init on count_reg[10]
+22:03:00:info     |       HDL Init on count_reg[9]
+22:03:00:info     |       HDL Init on count_reg[8]
+22:03:00:info     |       HDL Init on count_reg[7]
+22:03:00:info     |       HDL Init on count_reg[6]
+22:03:00:info     |       HDL Init on count_reg[5]
+22:03:00:info     |       HDL Init on count_reg[4]
+22:03:00:info     |       HDL Init on count_reg[3]
+22:03:00:info     |       HDL Init on count_reg[2]
+22:03:00:info     |       HDL Init on count_reg[1]
+22:03:00:info     |       HDL Init on count_reg[0]
+22:03:00:info     |       No Reset on count_reg[26]
+22:03:00:info     |       No Reset on count_reg[25]
+22:03:00:info     |       No Reset on count_reg[24]
+22:03:00:info     |       No Reset on count_reg[23]
+22:03:00:info     |       No Reset on count_reg[22]
+22:03:00:info     |       No Reset on count_reg[21]
+22:03:00:info     |       No Reset on count_reg[20]
+22:03:00:info     |       No Reset on count_reg[19]
+22:03:00:info     |       No Reset on count_reg[18]
+22:03:00:info     |       No Reset on count_reg[17]
+22:03:00:info     |       No Reset on count_reg[16]
+22:03:00:info     |       No Reset on count_reg[15]
+22:03:00:info     |       No Reset on count_reg[14]
+22:03:00:info     |       No Reset on count_reg[13]
+22:03:00:info     |       No Reset on count_reg[12]
+22:03:00:info     |       No Reset on count_reg[11]
+22:03:00:info     |       No Reset on count_reg[10]
+22:03:00:info     |       No Reset on count_reg[9]
+22:03:00:info     |       No Reset on count_reg[8]
+22:03:00:info     |       No Reset on count_reg[7]
+22:03:00:info     |       No Reset on count_reg[6]
+22:03:00:info     |       No Reset on count_reg[5]
+22:03:00:info     |       No Reset on count_reg[4]
+22:03:00:info     |       No Reset on count_reg[3]
+22:03:00:info     |       No Reset on count_reg[2]
+22:03:00:info     |       No Reset on count_reg[1]
+22:03:00:info     |       No Reset on count_reg[0]
+22:03:00:info     |       
+22:03:00:info     |       
+22:03:00:info     |       Register usage summary
+22:03:00:info     |       
+22:03:00:info     |       	HDL Init info on DFF: 27 / 27 Total
+22:03:00:info     |       	Reset Unused  on DFF: 27 / 27 Total
+22:03:00:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:03:00:info     |   // Mapped Data
+22:03:00:info     |   ////////////////////////////////////////////////////////////////////////////////
+22:03:00:info     |   Synthesized Registers : 
+22:03:00:info     |   There are 27DFFs
+22:03:00:info     |   No Resets : 27
+22:03:00:info     |   HDL Init : 27
+22:03:00:info     |   Dff : count_reg[26] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[25] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[24] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[23] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[22] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[21] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[20] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[19] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[18] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[17] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[16] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[15] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[14] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[13] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[12] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[11] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[10] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[9] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[8] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[7] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[6] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[5] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[4] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[3] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[2] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[1] : HDL Init No Reset
+22:03:00:info     |   Dff : count_reg[0] : HDL Init No Reset

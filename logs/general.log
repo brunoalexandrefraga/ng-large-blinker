@@ -1,0 +1,1307 @@
+////////////////////////////////////////////////////////////////////////////////
+// Impulse v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.4 LTS
+// Execution date:       ter jul 2 21:51:46 2024
+// Command line:         /opt/NanoXplore/impulse-23-3/bin/impulse 
+// Process ID:           18276
+////////////////////////////////////////////////////////////////////////////////
+
+21:51:46:info     |   /home/desktop/Projects/large-blinker does not exists, creating it...
+21:51:46:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+21:51:46:info     |   Using variant NG-LARGE from family NG-LARGE
+21:51:46:info     |   Using package CLGA-1752 from variant NG-LARGE
+21:51:46:info     |   Initializing library.
+21:51:46:info     |     Library initialized in 30 milliseconds
+21:51:46:info     |   Calibrating plane
+21:51:46:info     |     Calibrating plane succeeded in 6 milliseconds
+21:51:46:info     |   Characterizing plane
+21:51:46:info     |     Characterizing library
+21:51:46:info     |       Characterizing library done in 337 milliseconds
+21:51:47:info     |     Characterizing plane done in 402 milliseconds
+21:51:47:error    |   No top cell name specified
+21:51:47:error    |   No top cell name specified
+21:59:23:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+21:59:23:info     |     Saving succeeded in 1 millisecond
+21:59:29:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+21:59:29:info     |     Saving succeeded in 5 milliseconds
+21:59:29:info     |   Synthesizing project (step 1/3) with KEVLAR
+21:59:29:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+21:59:29:info     |     Loading HDL
+21:59:31:error    |       Cannot find topcell 'blink' in library 'work'
+21:59:31:error    |       Critical: Topcell not found (see previous error for details)
+21:59:31:info     |       Loading failed in 1 second 786 milliseconds
+21:59:31:error    |     Critical: Hdl design loading failed
+21:59:31:info     |     Synthesizing project (step 1/3) failed in 1 second 791 milliseconds
+21:59:31:error    |   The flow has been stopped because an error has been encountered.
+22:00:07:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:07:info     |     Saving succeeded in 24 milliseconds
+22:00:09:info     |   Erasing Information Map
+22:00:09:info     |   Closing project succeeded
+22:00:09:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:00:09:info     |   Closing project succeeded
+22:00:09:info     |   Loading archive from '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:00:09:info     |     Archive created with v23.3.0.2
+22:00:09:info     |     Initializing library.
+22:00:09:info     |       Library initialized in 31 milliseconds
+22:00:09:info     |     Calibrating plane
+22:00:09:info     |       Calibrating plane succeeded in 7 milliseconds
+22:00:09:info     |     Characterizing plane
+22:00:09:info     |       Characterizing library
+22:00:09:info     |         Characterizing library done in 332 milliseconds
+22:00:09:info     |       Characterizing plane done in 335 milliseconds
+22:00:09:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:00:09:info     |     Using variant NG-LARGE from family NG-LARGE
+22:00:10:info     |     Loading succeeded in 629 milliseconds
+22:00:10:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:10:info     |     Saving succeeded in 2 milliseconds
+22:00:10:info     |     Analyze succeeded in 0 milliseconds
+22:00:10:info     |   Erasing Information Map
+22:00:10:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:10:info     |     Saving succeeded in 2 milliseconds
+22:00:10:info     |   Erasing Information Map
+22:00:10:info     |   Closing project succeeded
+22:00:10:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:00:10:info     |   Closing project succeeded
+22:00:10:info     |   Loading archive from '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:10:info     |     Archive created with v23.3.0.2
+22:00:10:info     |     Initializing library.
+22:00:10:info     |       Library initialized in 31 milliseconds
+22:00:10:info     |     Calibrating plane
+22:00:10:info     |       Calibrating plane succeeded in 8 milliseconds
+22:00:10:info     |     Characterizing plane
+22:00:10:info     |       Characterizing library
+22:00:10:info     |         Characterizing library done in 334 milliseconds
+22:00:10:info     |       Characterizing plane done in 337 milliseconds
+22:00:11:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:00:11:info     |     Using variant NG-LARGE from family NG-LARGE
+22:00:11:info     |     Stopping load at line 82
+22:00:11:info     |     Loading succeeded in 637 milliseconds
+22:00:11:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:11:info     |     Saving succeeded in 2 milliseconds
+22:00:11:info     |     Analyze succeeded in 0 milliseconds
+22:00:11:info     |   Erasing Information Map
+22:00:11:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:00:11:info     |     Saving succeeded in 1 millisecond
+22:00:11:info     |   Synthesizing project (step 1/3) with KEVLAR
+22:00:11:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+22:00:11:info     |     Loading HDL
+22:00:11:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:13:error    |       Cannot find topcell 'blink' in library 'work'
+22:00:13:error    |       Critical: Topcell not found (see previous error for details)
+22:00:13:info     |       Loading failed in 1 second 925 milliseconds
+22:00:13:error    |     Critical: Hdl design loading failed
+22:00:13:info     |     Synthesizing project (step 1/3) failed in 1 second 932 milliseconds
+22:00:13:error    |   The flow has been stopped because an error has been encountered.
+22:00:20:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:20:info     |     Saving succeeded in 6 milliseconds
+22:00:20:info     |   Erasing Information Map
+22:00:20:info     |   Closing project succeeded
+22:00:20:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:00:20:info     |   Closing project succeeded
+22:00:20:info     |   Loading archive from '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:20:info     |     Archive created with v23.3.0.2
+22:00:21:info     |     Initializing library.
+22:00:21:info     |       Library initialized in 33 milliseconds
+22:00:21:info     |     Calibrating plane
+22:00:21:info     |       Calibrating plane succeeded in 8 milliseconds
+22:00:21:info     |     Characterizing plane
+22:00:21:info     |       Characterizing library
+22:00:21:info     |         Characterizing library done in 339 milliseconds
+22:00:21:info     |       Characterizing plane done in 342 milliseconds
+22:00:21:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:00:21:info     |     Using variant NG-LARGE from family NG-LARGE
+22:00:21:info     |     Stopping load at line 81
+22:00:21:info     |     Loading succeeded in 647 milliseconds
+22:00:21:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:21:info     |     Saving succeeded in 2 milliseconds
+22:00:21:info     |     Analyze succeeded in 0 milliseconds
+22:00:21:info     |   Erasing Information Map
+22:00:21:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:00:21:info     |     Saving succeeded in 1 millisecond
+22:00:21:info     |   Synthesizing project (step 1/3) with KEVLAR
+22:00:21:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+22:00:21:info     |     Loading HDL
+22:00:22:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:23:error    |       Cannot find topcell 'blink' in library 'work'
+22:00:23:error    |       Critical: Topcell not found (see previous error for details)
+22:00:23:info     |       Loading failed in 1 second 898 milliseconds
+22:00:23:error    |     Critical: Hdl design loading failed
+22:00:23:info     |     Synthesizing project (step 1/3) failed in 1 second 905 milliseconds
+22:00:23:error    |   The flow has been stopped because an error has been encountered.
+22:00:40:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:40:info     |     Saving succeeded in 6 milliseconds
+22:00:44:info     |   Erasing Information Map
+22:00:44:info     |   Closing project succeeded
+22:00:45:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:00:45:info     |   Closing project succeeded
+22:00:45:info     |   Loading archive from '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:00:45:info     |     Archive created with v23.3.0.2
+22:00:45:info     |     Initializing library.
+22:00:45:info     |       Library initialized in 34 milliseconds
+22:00:45:info     |     Calibrating plane
+22:00:45:info     |       Calibrating plane succeeded in 7 milliseconds
+22:00:45:info     |     Characterizing plane
+22:00:45:info     |       Characterizing library
+22:00:45:info     |         Characterizing library done in 339 milliseconds
+22:00:45:info     |       Characterizing plane done in 342 milliseconds
+22:00:45:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:00:45:info     |     Using variant NG-LARGE from family NG-LARGE
+22:00:45:info     |     Loading succeeded in 648 milliseconds
+22:00:45:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:45:info     |     Saving succeeded in 2 milliseconds
+22:00:45:info     |     Analyze succeeded in 0 milliseconds
+22:00:45:info     |   Erasing Information Map
+22:00:45:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:45:info     |     Saving succeeded in 2 milliseconds
+22:00:45:info     |   Erasing Information Map
+22:00:46:info     |   Closing project succeeded
+22:00:46:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:00:46:info     |   Closing project succeeded
+22:00:46:info     |   Loading archive from '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:46:info     |     Archive created with v23.3.0.2
+22:00:46:info     |     Initializing library.
+22:00:46:info     |       Library initialized in 34 milliseconds
+22:00:46:info     |     Calibrating plane
+22:00:46:info     |       Calibrating plane succeeded in 8 milliseconds
+22:00:46:info     |     Characterizing plane
+22:00:46:info     |       Characterizing library
+22:00:46:info     |         Characterizing library done in 345 milliseconds
+22:00:46:info     |       Characterizing plane done in 348 milliseconds
+22:00:46:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:00:46:info     |     Using variant NG-LARGE from family NG-LARGE
+22:00:46:info     |     Stopping load at line 82
+22:00:46:info     |     Loading succeeded in 659 milliseconds
+22:00:46:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:00:46:info     |     Saving succeeded in 2 milliseconds
+22:00:46:info     |     Analyze succeeded in 0 milliseconds
+22:00:46:info     |   Erasing Information Map
+22:00:46:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:00:46:info     |     Saving succeeded in 1 millisecond
+22:00:46:info     |   Synthesizing project (step 1/3) with KEVLAR
+22:00:46:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+22:00:46:info     |     Loading HDL
+22:00:47:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:00:48:error    |       Cannot find topcell 'blink' in library 'work'
+22:00:48:error    |       Critical: Topcell not found (see previous error for details)
+22:00:48:info     |       Loading failed in 1 second 881 milliseconds
+22:00:48:error    |     Critical: Hdl design loading failed
+22:00:48:info     |     Synthesizing project (step 1/3) failed in 1 second 884 milliseconds
+22:00:48:error    |   The flow has been stopped because an error has been encountered.
+22:02:36:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:36:info     |     Saving succeeded in 6 milliseconds
+22:02:40:info     |   Erasing Information Map
+22:02:41:info     |   Closing project succeeded
+22:02:41:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:02:41:info     |   Closing project succeeded
+22:02:41:info     |   Loading archive from '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:02:41:info     |     Archive created with v23.3.0.2
+22:02:41:info     |     Initializing library.
+22:02:41:info     |       Library initialized in 37 milliseconds
+22:02:41:info     |     Calibrating plane
+22:02:41:info     |       Calibrating plane succeeded in 7 milliseconds
+22:02:41:info     |     Characterizing plane
+22:02:41:info     |       Characterizing library
+22:02:41:info     |         Characterizing library done in 346 milliseconds
+22:02:41:info     |       Characterizing plane done in 350 milliseconds
+22:02:41:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:02:41:info     |     Using variant NG-LARGE from family NG-LARGE
+22:02:41:info     |     Loading succeeded in 676 milliseconds
+22:02:41:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:41:info     |     Saving succeeded in 3 milliseconds
+22:02:41:info     |     Analyze succeeded in 0 milliseconds
+22:02:41:info     |   Erasing Information Map
+22:02:41:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:41:info     |     Saving succeeded in 2 milliseconds
+22:02:42:info     |   Erasing Information Map
+22:02:42:info     |   Closing project succeeded
+22:02:42:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:02:42:info     |   Closing project succeeded
+22:02:42:info     |   Loading archive from '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:42:info     |     Archive created with v23.3.0.2
+22:02:42:info     |     Initializing library.
+22:02:42:info     |       Library initialized in 39 milliseconds
+22:02:42:info     |     Calibrating plane
+22:02:42:info     |       Calibrating plane succeeded in 8 milliseconds
+22:02:42:info     |     Characterizing plane
+22:02:42:info     |       Characterizing library
+22:02:42:info     |         Characterizing library done in 356 milliseconds
+22:02:42:info     |       Characterizing plane done in 359 milliseconds
+22:02:43:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:02:43:info     |     Using variant NG-LARGE from family NG-LARGE
+22:02:43:info     |     Stopping load at line 82
+22:02:43:info     |     Loading succeeded in 682 milliseconds
+22:02:43:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:43:info     |     Saving succeeded in 1 millisecond
+22:02:43:info     |     Analyze succeeded in 0 milliseconds
+22:02:43:info     |   Erasing Information Map
+22:02:43:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:02:43:info     |     Saving succeeded in 2 milliseconds
+22:02:43:info     |   Synthesizing project (step 1/3) with KEVLAR
+22:02:43:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+22:02:43:info     |     Loading HDL
+22:02:43:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(13): overwriting previous definition of module 'blinky'
+22:02:45:error    |       Cannot find topcell 'blink' in library 'work'
+22:02:45:error    |       Critical: Topcell not found (see previous error for details)
+22:02:45:info     |       Loading failed in 1 second 950 milliseconds
+22:02:45:error    |     Critical: Hdl design loading failed
+22:02:45:info     |     Synthesizing project (step 1/3) failed in 1 second 958 milliseconds
+22:02:45:error    |   The flow has been stopped because an error has been encountered.
+22:02:55:info     |   Erasing Information Map
+22:02:55:info     |   Closing project succeeded
+22:02:55:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:02:55:info     |   Closing project succeeded
+22:02:55:info     |   Loading archive from '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:02:55:info     |     Archive created with v23.3.0.2
+22:02:55:info     |     Initializing library.
+22:02:56:info     |       Library initialized in 39 milliseconds
+22:02:56:info     |     Calibrating plane
+22:02:56:info     |       Calibrating plane succeeded in 8 milliseconds
+22:02:56:info     |     Characterizing plane
+22:02:56:info     |       Characterizing library
+22:02:56:info     |         Characterizing library done in 354 milliseconds
+22:02:56:info     |       Characterizing plane done in 357 milliseconds
+22:02:56:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:02:56:info     |     Using variant NG-LARGE from family NG-LARGE
+22:02:56:info     |     Loading succeeded in 683 milliseconds
+22:02:56:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:56:info     |     Saving succeeded in 1 millisecond
+22:02:56:info     |     Analyze succeeded in 0 milliseconds
+22:02:56:info     |   Erasing Information Map
+22:02:56:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:56:info     |     Saving succeeded in 1 millisecond
+22:02:56:info     |   Erasing Information Map
+22:02:56:info     |   Closing project succeeded
+22:02:57:info     |   Changing current directory to /home/desktop/Projects/large-blinker
+22:02:57:info     |   Closing project succeeded
+22:02:57:info     |   Loading archive from '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:57:info     |     Archive created with v23.3.0.2
+22:02:57:info     |     Initializing library.
+22:02:57:info     |       Library initialized in 40 milliseconds
+22:02:57:info     |     Calibrating plane
+22:02:57:info     |       Calibrating plane succeeded in 9 milliseconds
+22:02:57:info     |     Characterizing plane
+22:02:57:info     |       Characterizing library
+22:02:57:info     |         Characterizing library done in 349 milliseconds
+22:02:57:info     |       Characterizing plane done in 352 milliseconds
+22:02:57:info     |     Changing current directory to /home/desktop/Projects/large-blinker
+22:02:57:info     |     Using variant NG-LARGE from family NG-LARGE
+22:02:57:info     |     Stopping load at line 82
+22:02:57:info     |     Loading succeeded in 687 milliseconds
+22:02:57:info     |   Saving archive in '/home/desktop/Projects/large-blinker/large-blinker.nym'
+22:02:57:info     |     Saving succeeded in 2 milliseconds
+22:02:57:info     |     Analyze succeeded in 0 milliseconds
+22:02:57:info     |   Erasing Information Map
+22:02:57:info     |   Saving archive in '/home/desktop/Projects/large-blinker/native-auto.nym'
+22:02:57:info     |     Saving succeeded in 1 millisecond
+22:02:57:info     |   Synthesizing project (step 1/3) with KEVLAR
+22:02:57:info     |     +--------------------------------------------------------------+
+                  |     |    Retained options for 'Synthesizing project (step 1/3)'    |
+                  |     +------------------------------+-------------+-----------------+
+                  |     |             Name             | Asked Value | Effective Value |
+                  |     +------------------------------+-------------+-----------------+
+                  |     | AllowCascadedGCK             | No          | No              |
+                  |     | AlternateModuleAttribute     | Unused      | Unused          |
+                  |     | AlternateModuleType          | Soft        | Soft            |
+                  |     | Autosave                     | Yes         | Yes             |
+                  |     | DefaultFSMEncoding           | OneHot      | OneHot          |
+                  |     | DefaultRAMMapping            | AUTO        | AUTO            |
+                  |     | DefaultROMMapping            | AUTO        | AUTO            |
+                  |     | DisableAssertionChecking     | No          | No              |
+                  |     | DisableKeepPortOrdering      | No          | No              |
+                  |     | DisableRAMAlternateForm      | No          | No              |
+                  |     | DisableRAMLinearStorage      | No          | No              |
+                  |     | DisableROMFullLutRecognition | No          | No              |
+                  |     | DisableTopParametricName     | Yes         | Yes             |
+                  |     | IgnoreRAMFlashClear          | No          | No              |
+                  |     | ManageUnconnectedOutputs     | Error       | Error           |
+                  |     | ManageUnconnectedSignals     | Error       | Error           |
+                  |     | MaxRegisterCount             | 0           | 20000           |
+                  |     | SaveTiming                   | No          | No              |
+                  |     +------------------------------+-------------+-----------------+
+                  |     
+22:02:57:info     |     Loading HDL
+22:02:59:warning  |       /home/desktop/Projects/large-blinker/src/blink.v(11): expression size 28 truncated to fit in target size 27
+22:02:59:info     |       Loading succeeded in 2 seconds 92 milliseconds
+22:02:59:info     |     Initializing design
+22:02:59:info     |       Creating cell: 'add_27u_27u'
+22:02:59:info     |       Creating cell: 'blink'
+22:02:59:info     |       Initializing blink as Design Top
+22:02:59:info     |       Initializing succeeded in 11 milliseconds
+22:02:59:info     |     Checking cascaded GCKs
+22:02:59:info     |       Checking succeeded in 0 milliseconds
+22:02:59:info     |     Checking coherence of constant/global nets/instances in design
+22:02:59:info     |       Checking succeeded in 3 milliseconds
+22:02:59:info     |     Reporting BlackBoxes usage
+22:02:59:info     |       Nothing to report
+22:02:59:info     |     Reporting Modules usage
+22:02:59:info     |       Nothing to report
+22:02:59:info     |     Reporting Model Directives usage
+22:02:59:info     |       Nothing to report
+22:02:59:info     |     Reporting Model Initializers usage
+22:02:59:info     |       Nothing to report
+22:02:59:info     |     Synthesizing project (step 1/3) succeeded in 2 seconds 111 milliseconds
+22:02:59:info     |   Saving archive in 'synthesized-auto.nym'
+22:02:59:info     |     Saving succeeded in 2 milliseconds
+22:02:59:info     |   Report missing constraints of step Synthesizing
+22:02:59:info     |   Synthesizing project (step 2/3) with PLANAR
+22:02:59:info     |     +-----------------------------------------------------------------+
+                  |     |     Retained options for 'Synthesizing project (step 2/3)'      |
+                  |     +---------------------------------+-------------+-----------------+
+                  |     |              Name               | Asked Value | Effective Value |
+                  |     +---------------------------------+-------------+-----------------+
+                  |     | Autosave                        | Yes         | Yes             |
+                  |     | BypassMapping                   | No          | No              |
+                  |     | DisableAdderBasicMerge          | No          | No              |
+                  |     | DisableAdderTreeOptimization    | No          | No              |
+                  |     | DisableAdderTrivialRemoval      | No          | No              |
+                  |     | DisableDSPAluOperator           | No          | No              |
+                  |     | DisableDSPFullRecognition       | No          | No              |
+                  |     | DisableDSPPreOperator           | No          | No              |
+                  |     | DisableDSPRegisters             | No          | No              |
+                  |     | DisableLoadAndResetBypass       | No          | No              |
+                  |     | DisableRAMRegisters             | No          | No              |
+                  |     | DisableRegisterMergeInDspForAdd | No          | No              |
+                  |     | ManageAsynchronousReadPort      | No          | No              |
+                  |     | ManageUninitializedLoops        | No          | No              |
+                  |     | MappingEffort                   | High        | High            |
+                  |     | OptimizedMux                    | Yes         | Yes             |
+                  |     | SaveTiming                      | No          | No              |
+                  |     | TimingDriven                    | No          | No              |
+                  |     | VariantAwareSynthesis           | Deprecated  | Deprecated      |
+                  |     | VariantRepairSynthesis          | No          | No              |
+                  |     +---------------------------------+-------------+-----------------+
+                  |     
+22:02:59:info     |     Pre-mapping constant cells
+22:02:59:info     |       Pre-mapping constant cells succeeded in 0 milliseconds
+22:02:59:info     |     Pre-mapping-hier dff cells
+22:02:59:info     |       Pre-mapping-hier dff cells succeeded in 0 milliseconds
+22:02:59:info     |     Pre-mapping-hier adders
+22:02:59:info     |       Normalize adders
+22:02:59:info     |       Found Generator: add_27u_27u::GENE_ADD / false : 27 : 0 : 27 : 27
+22:02:59:info     |       Subtractors detection begins...
+22:02:59:info     |         Subtractors detection finished. 0 milliseconds
+22:02:59:info     |       Remove Trivial adders
+22:02:59:info     |       Pre-mapping-hier adders succeeded in 0 milliseconds
+22:02:59:info     |     Flattening Top Module cell:
+22:02:59:info     |       Exploding cell done in 0 milliseconds
+22:02:59:info     |       Destroying internal cells done in 0 milliseconds
+22:02:59:info     |       Purging done in 0 milliseconds
+22:02:59:info     |       Flattening Module cells succeeded in 1 millisecond
+22:02:59:info     |     Pre-mapping adders
+22:03:00:info     |       Pre-mapping adders succeeded in  70 milliseconds
+22:03:00:info     |     Pre-mapping lessThan
+22:03:00:info     |       Pre-mapping lessThan succeeded in  0 milliseconds
+22:03:00:info     |     Pre-mapping memories
+22:03:00:info     |       Pre-mapping memories succeeded in 0 milliseconds
+22:03:00:info     |     Flattening Top Module cell:
+22:03:00:info     |       Exploding cell done in 0 milliseconds
+22:03:00:info     |       Destroying internal cells done in 0 milliseconds
+22:03:00:info     |       Purging done in 0 milliseconds
+22:03:00:info     |       Flattening Module cells succeeded in 0 milliseconds
+22:03:00:info     |     Pre-mapping constant cells
+22:03:00:info     |       Pre-mapping constant cells succeeded in 0 milliseconds
+22:03:00:info     |     Pre-mapping tristate cells
+22:03:00:info     |       Pre-mapping tristate cells succeeded in 0 milliseconds
+22:03:00:info     |     Pre-mapping latch cells
+22:03:00:info     |       Pre-mapping latch cells succeeded in 0 milliseconds
+22:03:00:info     |     Pre-mapping dff cells
+22:03:00:info     |       Pre-mapping dff cells succeeded in 2 milliseconds
+22:03:00:info     |     Pre-mapping dsp groups
+22:03:00:info     |       Pre-mapping dsp groups succeeded in 0 milliseconds
+22:03:00:info     |     Add Mux Transformer is starting...
+22:03:00:info     |       -> AddMux transformations / total nbr of adders <=> 0 / 1
+22:03:00:info     |       Add Mux Transformer finished... 0 milliseconds
+22:03:00:info     |     Adder Tree Balancer is starting...
+22:03:00:info     |       -> Add actual balancings / total nbr of adders <=> 0 / 1
+22:03:00:info     |       Adder Tree Balancer finished... 0 milliseconds
+22:03:00:info     |     Adder net operand reduction is starting...
+22:03:00:info     |       -> cumul New Modifed Adders Stages / cumul Old Modifed Adders Stages <=> 0 / 0
+22:03:00:info     |       -> Nbr of adder net operand reductions / total nbr of adders <=> 0 / 1
+22:03:00:info     |       Adder net operand reduction finished... 0 milliseconds
+22:03:00:info     |     Flattening Top Module cell:
+22:03:00:info     |       Exploding cell done in 0 milliseconds
+22:03:00:info     |       Destroying internal cells done in 0 milliseconds
+22:03:00:info     |       Purging done in 0 milliseconds
+22:03:00:info     |       Flattening Module cells succeeded in 0 milliseconds
+22:03:00:info     |     Flattening Top Module cell:
+22:03:00:info     |       Exploding cell done in 0 milliseconds
+22:03:00:info     |       Destroying internal cells done in 0 milliseconds
+22:03:00:info     |       Purging done in 0 milliseconds
+22:03:00:info     |       Flattening Module cells succeeded in 0 milliseconds
+22:03:00:info     |     Pre-mapping virtual cells
+22:03:00:info     |       Pre-mapping virtual cells succeeded in 20 milliseconds
+22:03:00:info     |     Pre-mapping top pads
+22:03:00:info     |       Pre-mapping top pads succeeded in 1 millisecond
+22:03:00:info     |     Pre-mapping top pads
+22:03:00:info     |       Pre-mapping top pads succeeded in 0 milliseconds
+22:03:00:info     |     Preparing logic cell: LOGIC from: blink
+22:03:00:info     |       Preparing logic cell succeeded in 0 milliseconds
+22:03:00:info     |     Loop breaker engine starting...
+22:03:00:info     |       Loop breaker engine finished. 0 milliseconds
+22:03:00:info     |     Checking logic/sequential cycles done in 0 milliseconds
+22:03:00:info     |     Optimizing #Dffs ...
+22:03:00:info     |     Mapping logic cell: LOGIC
+22:03:00:info     |       Mapping logic cell succeeded in 64 milliseconds
+22:03:00:info     |     Post-mapping GenMultiplier
+22:03:00:info     |       Post-mapping GenMultiplier succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping adders
+22:03:00:info     |       Post-mapping adders succeeded in  2 milliseconds
+22:03:00:info     |     Post-mapping lessThan
+22:03:00:info     |       Post-mapping lessThan succeeded in  0 milliseconds
+22:03:00:info     |     Post-mapping adders cleanup
+22:03:00:info     |       Post-mapping adders cleanup succeeded in  0 milliseconds
+22:03:00:info     |     Post-mapping lut cells
+22:03:00:info     |       Post-mapping lut cells succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping adder cells
+22:03:00:info     |       Post-mapping adder cells succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping dsp cells
+22:03:00:info     |       Post-mapping dsp cells succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping ram cells
+22:03:00:info     |       Post-mapping ram cells succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping rfb cells
+22:03:00:info     |       Post-mapping rfb cells succeeded in 0 milliseconds
+22:03:00:info     |     Post-mapping dff cells
+22:03:00:info     |       Post-mapping dff cells succeeded in 1 millisecond
+22:03:00:info     |     Reporting Instance Directives usage
+22:03:00:info     |       Nothing to report
+22:03:00:info     |     Reporting Instance Initializers usage
+22:03:00:info     |       Nothing to report
+22:03:00:info     |     Synthesizing project (step 2/3) succeeded in 243 milliseconds
+22:03:00:info     |   Saving archive in 'mapped-auto.nym'
+22:03:00:info     |     Saving succeeded in 10 milliseconds
+22:03:00:info     |   Report missing constraints of step Mapping
+22:03:00:info     |     
+22:03:00:info     |     Reporting instances at state 'Synthesized':
+22:03:00:info     |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       |               |                |             |    1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |       |     4-LUT     |      DFF       |    XLUT     |     Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |       |               |                |             |               |   block    |   clock    |        |             | processor  |            |           |          |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       | 0/129024 (0%) | 27/129024 (1%) | 0/8064 (0%) | 27/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 0/40 (0%) | 0/4 (0%) |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       
+22:03:00:info     |     Actual FE occupancy is 54/129024 (1%)
+22:03:00:info     |       
+22:03:00:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+22:03:00:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
+22:03:00:info     |       The following table details the use of FEs.
+22:03:00:info     |       +----------------++--------------------------------------+
+                  |       |     Total      ||               Used By                |
+                  |       |       FE       ||       |  DFF   |    |    |     |     |
+                  |       |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       | 54/129024 (1%) ||   0   |   27   | 27 | 0  |  0  |  0  |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       
+22:03:00:info     |       
+22:03:00:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+22:03:00:info     |       The following table lists the number of registers for each instance type.
+22:03:00:info     |       +----------++-----------------------+
+                  |       |  Total   ||        Used By        |
+                  |       | Register ||    |     |     |      |
+                  |       |  Count   || FE | DSP | RAM | Pads |
+                  |       +----------++----+-----+-----+------+
+                  |       |    27    || 27 |  0  |  0  |  0   |
+                  |       +----------++----+-----+-----+------+
+                  |       
+22:03:00:info     |     
+22:03:00:info     |     Reporting registers at state 'Mapped':
+22:03:00:info     |       No registers have been found in the current design.
+22:03:00:info     |   Synthesizing project (step 3/3) with RINGAR
+22:03:00:info     |     +--------------------------------------------------------+
+                  |     | Retained options for 'Synthesizing project (step 3/3)' |
+                  |     +--------------------+---------------+-------------------+
+                  |     |        Name        |  Asked Value  |  Effective Value  |
+                  |     +--------------------+---------------+-------------------+
+                  |     | AllowCascadedGCK   | No            | false             |
+                  |     | Seed               | 1789          | 1789              |
+                  |     +--------------------+---------------+-------------------+
+                  |     
+22:03:01:info     |     Post-mapping Module re-analysis
+22:03:01:info     |       Post-mapping Module re-analysis succeeded in 0 milliseconds
+22:03:01:info     |     Post-mapping Module reconstruction
+22:03:01:info     |       Post-mapping Module reconstruction succeeded in 0 milliseconds
+22:03:01:info     |     Path-mapping Module reconstruction
+22:03:01:info     |       Path-mapping Module reconstruction succeeded in 0 milliseconds
+22:03:01:info     |     Preparing IPs
+22:03:01:info     |       Preparing IPs succeeded in 0 milliseconds
+22:03:01:info     |     Post mapping ring
+22:03:01:info     |       Post-mapping top pads
+22:03:01:info     |         Post-mapping top pads succeeded in 2 milliseconds
+22:03:01:info     |       Post-mapping bd cells
+22:03:01:info     |         Post-mapping bd cells succeeded in 0 milliseconds
+22:03:01:info     |       Post-mapping pll cells
+22:03:01:info     |         Post-mapping pll cells succeeded in 0 milliseconds
+22:03:01:info     |       Post-mapping wfg cells
+22:03:01:info     |         Post-mapping wfg cells succeeded in 0 milliseconds
+22:03:01:info     |       Post-mapping hssl cells
+22:03:01:info     |         Post-mapping hssl cells succeeded in 0 milliseconds
+22:03:01:info     |       Post mapping ring succeeded in 2 milliseconds
+22:03:01:info     |     Finalizing synthesized design
+22:03:01:info     |       Cleaning nets
+22:03:01:info     |         Cleaning nets succeeded in 0 milliseconds
+22:03:01:info     |       Checking design
+22:03:01:info     |         Checking design succeeded in 0 milliseconds
+22:03:01:info     |       Reporting Modules usage
+22:03:01:info     |         Nothing to report
+22:03:01:info     |       Reporting Constrained usage
+22:03:01:info     |         Nothing to report
+22:03:01:info     |       Module <~> :
+22:03:01:info     |       
+22:03:01:info     |       Reporting instances at state 'Mapped':
+22:03:01:info     |         +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |         |               |                |             |    1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |         |     4-LUT     |      DFF       |    XLUT     |     Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |         |               |                |             |               |   block    |   clock    |        |             | processor  |            |           |          |
+                  |         +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |         | 0/129024 (0%) | 27/129024 (1%) | 0/8064 (0%) | 27/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
+                  |         +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |         
+22:03:01:info     |       Actual FE occupancy is 54/129024 (1%)
+22:03:01:info     |         
+22:03:01:info     |         Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+22:03:01:info     |         These FEs are automatically created when processing the design. Please check the CookBook for more information.
+22:03:01:info     |         The following table details the use of FEs.
+22:03:01:info     |         +----------------++--------------------------------------+
+                  |         |     Total      ||               Used By                |
+                  |         |       FE       ||       |  DFF   |    |    |     |     |
+                  |         |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
+                  |         +----------------++-------+--------+----+----+-----+-----+
+                  |         | 54/129024 (1%) ||   0   |   27   | 27 | 0  |  0  |  0  |
+                  |         +----------------++-------+--------+----+----+-----+-----+
+                  |         
+22:03:01:info     |         
+22:03:01:info     |         Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+22:03:01:info     |         The following table lists the number of registers for each instance type.
+22:03:01:info     |         +----------++-----------------------+
+                  |         |  Total   ||        Used By        |
+                  |         | Register ||    |     |     |      |
+                  |         |  Count   || FE | DSP | RAM | Pads |
+                  |         +----------++----+-----+-----+------+
+                  |         |    27    || 27 |  0  |  0  |  0   |
+                  |         +----------++----+-----+-----+------+
+                  |         
+22:03:01:info     |       --------------------------------------------
+22:03:01:info     |       - Detailed Hierarchy Statistics            -
+22:03:01:info     |       --------------------------------------------
+22:03:01:info     |       ~                   blink
+22:03:01:info     |                           Resources:
+22:03:01:info     |                             NX_DFF : 27
+22:03:01:info     |                             NX_CY : 7
+22:03:01:info     |                             NX_IOB : 2
+22:03:01:info     |                             NX_BFR : 3
+22:03:01:info     |                             NX_WFG_L : 1
+22:03:01:info     |       --------------------------------------------
+22:03:01:info     |       Cleaning design
+22:03:01:info     |         Cleaning design succeeded in 1 millisecond
+22:03:01:info     |       Finalizing synthesized design succeeded in 25 milliseconds
+22:03:01:info     |     Creating modules
+22:03:01:info     |       Creating modules succeeded in 0 milliseconds
+22:03:01:info     |     Creating dynasties
+22:03:01:info     |       Creating dynasties succeeded in 0 milliseconds
+22:03:01:info     |     Converting instances
+22:03:01:info     |       Extracting IP locations
+22:03:01:info     |         Extracting IP locations done in 0 milliseconds
+22:03:01:info     |       Extracting HDL locations
+22:03:01:info     |         Extracting HDL locations in 0 milliseconds
+22:03:01:info     |       Converting instances succeeded in 2 milliseconds
+22:03:01:info     |     Converting nets
+22:03:01:info     |       Converting nets succeeded in 1 millisecond
+22:03:01:info     |     Checking step
+22:03:01:info     |       [         ] Check AnyGCK IsNotCascaded (0 target)
+22:03:01:info     |       [SUCCESS  ]
+22:03:01:info     |       Checking step succeeded in 0 milliseconds
+22:03:01:info     |     Synthesizing project (step 3/3) succeeded in 1 second 43 milliseconds
+22:03:01:info     |   Saving archive in 'converted-auto.nym'
+22:03:01:info     |     Saving succeeded in 3 milliseconds
+22:03:01:info     |   Report missing constraints of step Converting
+22:05:25:warning  |   IO clk: terminationReference cannot be set as no termination is given
+22:05:25:warning  |   IO led: terminationReference cannot be set as no termination is given
+22:05:27:info     |   Placing project (step 1/5) with PREPAR
+22:05:27:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Placing project (step 1/5)' |
+                  |     +------------------+--------------+-----------------+
+                  |     |       Name       | Asked Value  | Effective Value |
+                  |     +------------------+--------------+-----------------+
+                  |     | BypassingEffort  | Medium       | Medium          |
+                  |     | Seed             | 1789         | 1789            |
+                  |     +------------------+--------------+-----------------+
+                  |     
+22:05:28:info     |     Developping instances
+22:05:28:info     |       Developing instances
+22:05:28:info     |         Developing instances succeeded in 1 millisecond
+22:05:28:info     |       Developping instances succeeded in 2 milliseconds
+22:05:28:info     |     Developping drawers
+22:05:28:info     |       Developping drawers succeeded in 0 milliseconds
+22:05:28:info     |     Sharing global BDs
+22:05:28:info     |       Sharing global BDs succeeded in 0 milliseconds
+22:05:28:info     |     Placing ring
+22:05:28:info     |       Placing ring succeeded in 30 milliseconds
+22:05:28:info     |     Adjusting DFRs
+22:05:28:info     |       Adjusting DFRs succeeded in 0 milliseconds
+22:05:28:info     |     Adjusting Pads
+22:05:28:info     |       Adjusting pads succeeded in 0 milliseconds
+22:05:28:info     |     Adjusting interfaces
+22:05:28:info     |       Adjusting interfaces succeeded in 0 milliseconds
+22:05:28:info     |     Cleaving nets
+22:05:28:info     |       Cleaving nets succeeded in 1 millisecond
+22:05:28:info     |     Merging nets
+22:05:28:info     |       Merging nets succeeded in 0 milliseconds
+22:05:28:info     |     Cleaning nets
+22:05:28:info     |       Cleaning nets succeeded in 0 milliseconds
+22:05:28:info     |     Cleaning useless BDs
+22:05:28:info     |       Cleaning useless BDs succeeded in 0 milliseconds
+22:05:28:info     |     Creating converters
+22:05:28:info     |       Creating converters succeeded in 0 milliseconds
+22:05:28:info     |     Bypassing converters with a medium effort
+22:05:28:info     |       No converter bypassed
+22:05:28:info     |       Bypassing converters with a medium effort succeeded in 0 milliseconds
+22:05:28:info     |     Sharing CSCs
+22:05:28:info     |       Sharing CSCs succeeded in 0 milliseconds
+22:05:28:info     |     Conforming modules
+22:05:28:info     |       Conforming modules succeeded in 0 milliseconds
+22:05:28:info     |     Preplacing instances
+22:05:28:info     |       Preplacing Others
+22:05:28:info     |         Preplacing others done after 0 milliseconds
+22:05:28:info     |       Preplacing instances succeeded in 3 milliseconds
+22:05:28:info     |     Checking resources
+22:05:28:info     |       [         ] Check ThePlane HasEnoughCDCSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughCYSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughDSPSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughFEOSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughFIFOSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughLUTSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughPLLSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughPadSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughRAMSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughRFSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughWFGSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check ThePlane HasEnoughXLUTSpots (1 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       Checking resources succeeded in 4 milliseconds
+22:05:28:info     |     Checking dsp chains
+22:05:28:info     |       [         ] Check AnyDSP.Chained HasChainedElements (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       Checking dsp chains succeeded in 0 milliseconds
+22:05:28:info     |     Populating core
+22:05:28:debug    |       Dispatching with PULSAR
+22:05:28:info     |         [         ] Check AnyFCO EmitsToAReceiver (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnySCO EmitsToAReceiver (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyTCO EmitsToAReceiver (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyInstance HasDriver (69 targets)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyNet HasPilot (90 targets)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyCX HasPinIConnected (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyFCI IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyFCO IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnySCI IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnySCO IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyTCI IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:info     |         [         ] Check AnyTCO IsRegular (0 target)
+22:05:28:info     |         [SUCCESS  ]
+22:05:28:debug    |         Unlocking chained DSPs
+22:05:28:info     |         Dispatching succeeded in 109 milliseconds
+22:05:28:info     |       Post dispatching blink in [1 1 48 23]
+22:05:28:info     |         Post dispatching succeeded in 4 milliseconds
+22:05:28:info     |       Checking regions capacity
+22:05:28:info     |         Checking regions capacity succeeded in 0 milliseconds
+22:05:28:info     |       Populating core succeeded in 142 milliseconds
+22:05:28:info     |     Routing ring
+22:05:28:info     |       Routing ring succeeded in 0 milliseconds
+22:05:28:info     |     Checking step
+22:05:28:info     |       Checking pads
+22:05:28:info     |         Checking pads definition succeeded in 0 milliseconds
+22:05:28:info     |       [         ] Check AnyCSC HasAuthorizedInstanceConnectedOn (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyCY HasAuthorizedInstanceConnectedOn (7 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyLUT.NotRequired HasAuthorizedInstanceConnectedOn (27 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyPad HasAuthorizedInstanceConnectedOn (2 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyFEO.NotCSC HasAuthorizedSystemConnection (27 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyInstance HasConfig (69 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyFEI.NotRequired HasConnectedOutput (27 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyFEO.NotRequired HasConnectedOutput (27 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyBFF HasNotUnmergedPair (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyNet.NotRequired HasPilot (90 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyInstance HasSite (69 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyInstance HasSpot (69 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       Checking system signals in all tiles
+22:05:28:info     |       Checking step succeeded in 3 milliseconds
+22:05:28:info     |     Placing project (step 1/5) succeeded in 705 milliseconds
+22:05:28:info     |   Saving archive in 'prepared-auto.nym'
+22:05:28:info     |     Saving succeeded in 5 milliseconds
+22:05:28:info     |   Report missing constraints of step Preparing
+22:05:28:info     |     Reporting ports
+22:05:28:info     |       
+22:05:28:info     |       Reporting ports at state 'Prepared':
+22:05:28:info     |       Ports used in current design.
+22:05:28:info     |       +-------------------------+
+                  |       |           IOs           |
+                  |       | Input | Output | In/Out |
+                  |       +-------+--------+--------+
+                  |       | 1     | 1      | 0      |
+                  |       +-------+--------+--------+
+                  |       
+22:05:28:info     |       +------+------+------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |       | Name | I/O  |  Location  | Standard | Voltage | Drive |     Termination      | SlewRate |   DelayLine   | Differential | Turbo |  Registered   |
+                  |       |      |      |            |          |         |       | R / Weak / Reference |          |   In / Out    |              |       | Asked:Applied |
+                  |       +------+------+------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |       | clk  | In   | IOB0_D01P  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |       | led  | Out  | IOB11_D05N | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |       +------+------+------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |       
+22:05:28:info     |       Note: the table above only displays the ports that are used in the current design.
+22:05:28:info     |       Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
+22:05:28:info     |       Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.
+22:05:28:info     |     
+22:05:28:info     |     Reporting instances at state 'Prepared':
+22:05:28:info     |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       |               |                |             |    1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |       |     4-LUT     |      DFF       |    XLUT     |     Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |       |               |                |             |               |   block    |   clock    |        |             | processor  |            |           |          |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       | 0/129024 (0%) | 27/129024 (1%) | 0/8064 (0%) | 27/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       
+22:05:28:info     |     Actual FE occupancy is 27/129024 (1%)
+22:05:28:info     |       
+22:05:28:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+22:05:28:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
+22:05:28:info     |       The following table details the use of FEs.
+22:05:28:info     |       +----------------++--------------------------------------+
+                  |       |     Total      ||               Used By                |
+                  |       |       FE       ||       |  DFF   |    |    |     |     |
+                  |       |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       | 27/129024 (1%) ||   0   |   0    | 27 | 0  |  0  |  0  |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       
+22:05:28:info     |       
+22:05:28:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+22:05:28:info     |       The following table lists the number of registers for each instance type.
+22:05:28:info     |       +----------++-----------------------+
+                  |       |  Total   ||        Used By        |
+                  |       | Register ||    |     |     |      |
+                  |       |  Count   || FE | DSP | RAM | Pads |
+                  |       +----------++----+-----+-----+------+
+                  |       |    27    || 27 |  0  |  0  |  0   |
+                  |       +----------++----+-----+-----+------+
+                  |       
+22:05:28:info     |     Lowskew network statistics at state: Prepared
+22:05:28:info     |       Lowskew signals: 1
+22:05:28:info     |       Total lowskew branches: 1
+22:05:28:info     |       
+22:05:28:info     |       Lowskew signals list:
+22:05:28:info     |         clk:	 27 receivers.
+22:05:28:info     |       
+22:05:28:info     |       Lobe occupancy:
+22:05:28:info     |         LOBE[Rx1]:	 1/12
+22:05:28:info     |       
+22:05:28:info     |       Lobe contents:
+22:05:28:info     |         Lobe: LOBE[Rx1]:
+22:05:28:info     |           Net clk from instance clk
+22:05:28:info     |     
+22:05:28:info     |     
+22:05:28:info     |   Placing project (step 2/5) with STELAR
+22:05:28:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Placing project (step 2/5)' |
+                  |     +-------------------+-------------+-----------------+
+                  |     |       Name        | Asked Value | Effective Value |
+                  |     +-------------------+-------------+-----------------+
+                  |     | Clusterize        | No          | No              |
+                  |     | IOAttractApproval | Yes         | Yes             |
+                  |     | SharingEffort     | Medium      | Medium          |
+                  |     | SharingFanout     | 100         | 100             |
+                  |     | SimplifyRegions   | Yes         | Yes             |
+                  |     +-------------------+-------------+-----------------+
+                  |     
+22:05:28:info     |     Unskewing
+22:05:28:info     |       Unskewing succeeded in 0 milliseconds
+22:05:28:info     |     Unskewing
+22:05:28:info     |       Unskewing succeeded in 0 milliseconds
+22:05:28:info     |     Generalizing lowskew branch ITS~cle[4:2].O of clk to all lobes
+22:05:28:info     |     [         ] Check AnyNet HasPilot (90 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyNet IsNetSimple (90 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:debug    |     Dispatching with PULSAR
+22:05:28:info     |       [         ] Check AnyFCO EmitsToAReceiver (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnySCO EmitsToAReceiver (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyTCO EmitsToAReceiver (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyInstance HasDriver (69 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyNet HasPilot (90 targets)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyCX HasPinIConnected (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyFCI IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyFCO IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnySCI IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnySCO IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyTCI IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:info     |       [         ] Check AnyTCO IsRegular (0 target)
+22:05:28:info     |       [SUCCESS  ]
+22:05:28:debug    |       Unlocking chained DSPs
+22:05:28:info     |       Dispatching succeeded in 114 milliseconds
+22:05:28:info     |     Post dispatching blink in [1 1 48 23]
+22:05:28:info     |       Post dispatching succeeded in 4 milliseconds
+22:05:28:info     |     Checking regions capacity
+22:05:28:info     |       Checking regions capacity succeeded in 0 milliseconds
+22:05:28:info     |     Placing project (step 2/5) succeeded in 166 milliseconds
+22:05:28:info     |   Saving archive in 'spreaded-auto.nym'
+22:05:28:info     |     Saving succeeded in 4 milliseconds
+22:05:28:info     |   Report missing constraints of step Spreading
+22:05:28:info     |     Lowskew network statistics at state: Spreaded
+22:05:28:info     |       Lowskew signals: 1
+22:05:28:info     |       Total lowskew branches: 1
+22:05:28:info     |       
+22:05:28:info     |       Lowskew signals list:
+22:05:28:info     |         clk:	 27 receivers.
+22:05:28:info     |       
+22:05:28:info     |       Lobe occupancy:
+22:05:28:info     |         LOBE[Rx1]:	 1/12
+22:05:28:info     |       
+22:05:28:info     |       Lobe contents:
+22:05:28:info     |         Lobe: LOBE[Rx1]:
+22:05:28:info     |           Net clk from instance clk
+22:05:28:info     |     
+22:05:28:info     |     
+22:05:28:debug    |   Placing project (step 3/5) with PULSAR
+22:05:28:info     |     +---------------------------------------------------------------+
+                  |     |       Retained options for 'Placing project (step 3/5)'       |
+                  |     +---------------------+--------------------+--------------------+
+                  |     |        Name         |    Asked Value     |  Effective Value   |
+                  |     +---------------------+--------------------+--------------------+
+                  |     | CongestionEffort    | High               | High               |
+                  |     | DensityEffort       | Low                | Low                |
+                  |     | Dynamic             | No                 | No                 |
+                  |     | PostBypassingEffort | Low                | Low                |
+                  |     | RoutingEffort       | Medium             | Medium             |
+                  |     | SystemOutputDriven  | No                 | No                 |
+                  |     | TimingDriven        | No                 | No                 |
+                  |     | TimingEffort        | High               | Low                |
+                  |     +---------------------+--------------------+--------------------+
+                  |     
+22:05:28:debug    |     Optimizing routes with a medium effort
+22:05:28:debug    |       Optimizing routes with a medium effort done in 0 milliseconds
+22:05:28:info     |     [         ] Check AnyFCO EmitsToAReceiver (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnySCO EmitsToAReceiver (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyTCO EmitsToAReceiver (1 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyInstance HasDriver (72 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyNet HasPilot (90 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyCX HasPinIConnected (2 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyInstance HasSite (72 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyInstance HasSpot (72 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyFCI IsRegular (1 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyFCO IsRegular (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnySCI IsRegular (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnySCO IsRegular (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyTCI IsRegular (0 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyTCO IsRegular (1 target)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     Placing project (step 3/5) succeeded in 268 milliseconds
+22:05:28:info     |   Saving archive in 'placed-auto.nym'
+22:05:28:info     |     Saving succeeded in 6 milliseconds
+22:05:28:info     |   Report missing constraints of step Placing
+22:05:28:info     |     Lowskew network statistics at state: Placed
+22:05:28:info     |       Lowskew signals: 1
+22:05:28:info     |       Total lowskew branches: 1
+22:05:28:info     |       
+22:05:28:info     |       Lowskew signals list:
+22:05:28:info     |         clk:	 1 receivers.
+22:05:28:info     |       
+22:05:28:info     |       Lobe occupancy:
+22:05:28:info     |         LOBE[Rx1]:	 1/12
+22:05:28:info     |       
+22:05:28:info     |       Lobe contents:
+22:05:28:info     |         Lobe: LOBE[Rx1]:
+22:05:28:info     |           Net clk from instance clk
+22:05:28:info     |     
+22:05:28:info     |     
+22:05:28:debug    |   Placing project (step 4/5) with BLIZAR
+22:05:28:info     |     [         ] Check AnyInstance HasDriver (72 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyNet HasPilot (90 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyInstance HasSite (72 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnyZX IsRegular (3 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnySector IsSectorFlowValid (660 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     [         ] Check AnySector IsSectorSizeValid (660 targets)
+22:05:28:info     |     [SUCCESS  ]
+22:05:28:info     |     +----------------------------------------------------------------+
+                  |     |       Retained options for 'Placing project (step 4/5)'        |
+                  |     +----------------------+--------------------+--------------------+
+                  |     |         Name         |    Asked Value     |  Effective Value   |
+                  |     +----------------------+--------------------+--------------------+
+                  |     | OptimizationApproval | No                 | No                 |
+                  |     | OptimizingEffort     | Low                | Low                |
+                  |     | PolishingEffort      | High               | High               |
+                  |     | ReplicationApproval  | Yes                | Yes                |
+                  |     | TimingDriven         | No                 | No                 |
+                  |     +----------------------+--------------------+--------------------+
+                  |     
+22:05:29:info     |     [         ] Check AnyFCO EmitsToAReceiver (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnySCO EmitsToAReceiver (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyTCO EmitsToAReceiver (1 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyInstance HasDriver (72 targets)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyNet HasPilot (90 targets)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyCX HasPinIConnected (2 targets)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyInstance HasSpot (72 targets)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyFCI IsRegular (1 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyFCO IsRegular (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnySCI IsRegular (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnySCO IsRegular (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyTCI IsRegular (0 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     [         ] Check AnyTCO IsRegular (1 target)
+22:05:29:info     |     [SUCCESS  ]
+22:05:29:info     |     Placing project (step 4/5) succeeded in 96 milliseconds
+22:05:29:info     |   Saving archive in 'polished-auto.nym'
+22:05:29:info     |     Saving succeeded in 7 milliseconds
+22:05:29:info     |   Report missing constraints of step Polishing
+22:05:29:info     |   Placing project (step 5/5) with QUASAR
+22:05:29:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Placing project (step 5/5)' |
+                  |     +----------------+---------------+------------------+
+                  |     |      Name      |  Asked Value  | Effective Value  |
+                  |     +----------------+---------------+------------------+
+                  |     | TimingDriven   | No            | No               |
+                  |     +----------------+---------------+------------------+
+                  |     
+22:05:29:info     |     Preparing succeeded in 0 milliseconds
+22:05:29:info     |     PreAssigning succeeded in 0 milliseconds
+22:05:29:info     |     Assigning succeeded in 0 milliseconds
+22:05:29:info     |     Directing succeeded in 0 milliseconds
+22:05:29:info     |     Splitting outputs succeeded in 0 milliseconds
+22:05:29:info     |     Exploding inputs succeeded in 0 milliseconds
+22:05:29:info     |     Populating succeeded in 0 milliseconds
+22:05:29:info     |     Checking succeeded in 0 milliseconds
+22:05:29:info     |   Placing project (step 5/5) succeeded in 3 milliseconds
+22:05:29:info     |   Saving archive in 'squaded-auto.nym'
+22:05:29:info     |     Saving succeeded in 4 milliseconds
+22:05:29:info     |   Report missing constraints of step Squading
+22:05:33:info     |   Routing project (step 1/3) with GUEPAR
+22:05:33:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Routing project (step 1/3)' |
+                  |     +-------------+----------------+--------------------+
+                  |     |    Name     |  Asked Value   |  Effective Value   |
+                  |     +-------------+----------------+--------------------+
+                  |     | Dynamic     | No             | No                 |
+                  |     +-------------+----------------+--------------------+
+                  |     
+22:05:33:info     |     Routing project (step 1/3) succeeded in 107 milliseconds
+22:05:33:info     |   Saving archive in 'grouped-auto.nym'
+22:05:33:info     |     Saving succeeded in 5 milliseconds
+22:05:33:info     |   Report missing constraints of step Grouping
+22:05:33:info     |   Routing project (step 2/3) with PANDAR
+22:05:33:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Routing project (step 2/3)' |
+                  |     +-------------+----------------+--------------------+
+                  |     |    Name     |  Asked Value   |  Effective Value   |
+                  |     +-------------+----------------+--------------------+
+                  |     | Dynamic     | No             | No                 |
+                  |     +-------------+----------------+--------------------+
+                  |     
+22:05:33:info     |     Routing project (step 2/3) succeeded in 16 milliseconds
+22:05:33:info     |   Saving archive in 'spotted-auto.nym'
+22:05:33:info     |     Saving succeeded in 5 milliseconds
+22:05:33:info     |   Report missing constraints of step Spotting
+22:05:33:info     |   Routing project (step 3/3) with NECTAR
+22:05:33:info     |     +---------------------------------------------------+
+                  |     | Retained options for 'Routing project (step 3/3)' |
+                  |     +----------------+---------------+------------------+
+                  |     |      Name      |  Asked Value  | Effective Value  |
+                  |     +----------------+---------------+------------------+
+                  |     | Dynamic        | No            | No               |
+                  |     | TimingDriven   | No            | No               |
+                  |     +----------------+---------------+------------------+
+                  |     
+22:05:42:info     |     [         ] Check AnyNet HasCompleteRoute (90 targets)
+22:05:42:info     |     [SUCCESS  ]
+22:05:42:info     |     Routing project (step 3/3) succeeded in 9 seconds 774 milliseconds
+22:05:42:info     |   Saving archive in 'routed-auto.nym'
+22:05:42:info     |     Saving succeeded in 6 milliseconds
+22:05:42:info     |   Report missing constraints of step Routing
+22:05:42:info     |     
+22:05:42:info     |     Reporting instances at state 'Routed':
+22:05:43:info     |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       |               |                |             |    1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |       |     4-LUT     |      DFF       |    XLUT     |     Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |       |               |                |             |               |   block    |   clock    |        |             | processor  |            |           |          |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       | 0/129024 (0%) | 27/129024 (1%) | 0/8064 (0%) | 27/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
+                  |       +---------------+----------------+-------------+---------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |       
+22:05:43:info     |     Actual FE occupancy is 27/129024 (1%)
+22:05:43:info     |       
+22:05:43:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+22:05:43:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
+22:05:43:info     |       The following table details the use of FEs.
+22:05:43:info     |       +----------------++--------------------------------------+
+                  |       |     Total      ||               Used By                |
+                  |       |       FE       ||       |  DFF   |    |    |     |     |
+                  |       |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       | 27/129024 (1%) ||   0   |   0    | 27 | 0  |  0  |  0  |
+                  |       +----------------++-------+--------+----+----+-----+-----+
+                  |       
+22:05:43:info     |       
+22:05:43:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+22:05:43:info     |       The following table lists the number of registers for each instance type.
+22:05:43:info     |       +----------++-----------------------+
+                  |       |  Total   ||        Used By        |
+                  |       | Register ||    |     |     |      |
+                  |       |  Count   || FE | DSP | RAM | Pads |
+                  |       +----------++----+-----+-----+------+
+                  |       |    27    || 27 |  0  |  0  |  0   |
+                  |       +----------++----+-----+-----+------+
+                  |       
+22:05:43:info     |     
+22:05:43:info     |     Reporting registers at state 'Routed':
+22:05:43:info     |       Printing register summary into 'registerSummary.rpt'.
+22:05:43:info     |       Printing a detailed register report into 'registerSummary.rpt'.
+22:05:43:info     |     Lowskew network statistics at state: Routed
+22:05:43:info     |       Lowskew signals: 1
+22:05:43:info     |       Total lowskew branches: 1
+22:05:43:info     |       
+22:05:43:info     |       Lowskew signals list:
+22:05:43:info     |         clk:	 1 receivers.
+22:05:43:info     |       
+22:05:43:info     |       Lobe occupancy:
+22:05:43:info     |         LOBE[Rx1]:	 1/12
+22:05:43:info     |       
+22:05:43:info     |       Lobe contents:
+22:05:43:info     |         Lobe: LOBE[Rx1]:
+22:05:43:info     |           Net clk from instance clk
+22:05:43:info     |     
+22:05:43:info     |     
+22:06:04:info     |   Bitstreaming project (step 1/1) with BITWIN
+22:06:04:info     |     +--------------------------------------------------------+
+                  |     | Retained options for 'Bitstreaming project (step 1/1)' |
+                  |     +----------------------------------+---------------------+
+                  |     |               Name               |        Value        |
+                  |     +----------------------------------+---------------------+
+                  |     | ExhaustiveBitstream              | No                  |
+                  |     | GenerateBitstreamCMIC            | No                  |
+                  |     | InitializeContext                | No                  |
+                  |     | SetRunAfterContext               | No                  |
+                  |     | UnusedPads                       | Floating            |
+                  |     +----------------------------------+---------------------+
+                  |     
+22:06:05:info     |     Creating config lines
+22:06:13:info     |       Creating config lines succeeded in 7 seconds 936 milliseconds
+22:06:13:info     |     Creating context lines
+22:06:14:info     |       Creating context lines succeeded in 1 second 484 milliseconds
+22:06:19:error    |     Product description file does not exist /opt/NanoXplore/impulse-23-3/share/variants/EFPGA28RH-6K/product.dec
+22:06:19:error    |     Product description file does not exist /opt/NanoXplore/impulse-23-3/share/variants/EFPGA28RH-30K/product.dec
+22:06:19:error    |     Product description file does not exist /opt/NanoXplore/impulse-23-3/share/variants/EFPGA28-60K/product.dec
+22:06:20:info     |     +------------------------------------+
+                  |     |     Configuration bits report      |
+                  |     +----------------+----------+--------+
+                  |     |  Total count   | 22924896 | 100 %  |
+                  |     |   Total used   | 13539    | 0.05 % |
+                  |     | Total critical | 511      | 0 %    |
+                  |     +----------------+----------+--------+
+                  |     
+22:06:20:info     |     +------------+-------------+
+                  |     | Total Size | 21.31 Kbits |
+                  |     +------------+-------------+
+                  |     
+22:06:20:info     |     CMIC is disabled
+22:06:20:info     |     Bitstreaming project (step 1/1) succeeded in 1 second 126 milliseconds
+22:06:20:info     |   Report missing constraints of step Bitstreaming
+22:08:11:info     |   Erasing Information Map
+22:08:11:info     |   Closing project succeeded
+22:08:11:info     |   Project destroyed in 5 milliseconds
+22:08:11:info     |   Done in 38 minutes 58 seconds 482 milliseconds
+22:08:11:info     |   Releasing license
+22:08:11:info     |     Releasing license done in 1 millisecond

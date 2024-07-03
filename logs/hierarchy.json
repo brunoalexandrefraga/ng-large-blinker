@@ -1,0 +1,280 @@
+{
+    "m_capacity": {
+        "count1Cy": 32256,
+        "count4Lut": 129024,
+        "countClockBuffer": 0,
+        "countClockSwitch": 1344,
+        "countCrossDomainClock": 672,
+        "countDff": 129024,
+        "countDsp": 384,
+        "countGck": 0,
+        "countMemBlock": 192,
+        "countPll": 4,
+        "countRegFileBlock": 672,
+        "countWfg": 40,
+        "countXLut": 8064
+    },
+    "m_componentCollection": [],
+    "m_header": {
+        "appDistrib": "Ubuntu 22.04.4 LTS",
+        "appName": "Impulse",
+        "appVersion": "v23.3.0.2",
+        "buildDate": "2023-09-29 15:22:00",
+        "commandLine": "/opt/NanoXplore/impulse-23-3/bin/impulse ",
+        "executionDate": "ter jul 2 22:02:57 2024",
+        "pid": 18276,
+        "revision": "branch HEAD - hash c27499706...",
+        "ui": {
+            "#ComponentReport": {
+                "instance": "#Value",
+                "model": "#Value",
+                "modules": "#List#Value",
+                "type": "#Value",
+                "usages": "#List#Value"
+            },
+            "#ContentReport": {
+                "count1Cy": "#Value",
+                "count4Lut": "#Value",
+                "countClockBuffer": "#Value",
+                "countClockSwitch": "#Value",
+                "countCrossDomainClock": "#Value",
+                "countDff": "#Value",
+                "countDsp": "#Value",
+                "countGck": "#Value",
+                "countMemBlock": "#Value",
+                "countPll": "#Value",
+                "countRegFileBlock": "#Value",
+                "countWfg": "#Value",
+                "countXLut": "#Value"
+            },
+            "#FEReport": {
+                "countFe": "#Value",
+                "countInternal": "#Value",
+                "countLutCDC": "#Value",
+                "countLutCKS": "#Value",
+                "countLutCarry": "#Value",
+                "countLutDff": "#Value",
+                "countLutHDL": "#Value",
+                "countLutRF": "#Value"
+            },
+            "#HeaderData": {
+                "appDistrib": "#Value",
+                "appName": "#Value",
+                "appVersion": "#Value",
+                "buildDate": "#Value",
+                "commandLine": "#Value",
+                "executionDate": "#Value",
+                "pid": "#Value",
+                "revision": "#Value",
+                "ui": "#Value"
+            },
+            "#HierarchyReport": {
+                "m_capacity": "#ContentReport",
+                "m_componentCollection": "#List#ComponentReport",
+                "m_header": "#HeaderData",
+                "m_moduleCollection": "#List#ModuleReport",
+                "m_nodeCollection": "#List#NodeReport",
+                "m_notificationCollection": "#List#NotificationReport"
+            },
+            "#ModuleReport": {
+                "contentReport": "#ContentReport",
+                "feReport": "#FEReport",
+                "name": "#Value",
+                "occupancy": "#Value",
+                "regReport": "#RegReport"
+            },
+            "#NodeReport": {
+                "children": "#List#Value",
+                "data": "#Value",
+                "model": "#Value",
+                "module": "#Value",
+                "name": "#Value",
+                "stats": "#List#Value"
+            },
+            "#NotificationReport": {
+                "message": "#Value",
+                "notificationType": "#Value"
+            },
+            "#RegReport": {
+                "countReg": "#Value",
+                "countRegDSP": "#Value",
+                "countRegDff": "#Value",
+                "countRegPads": "#Value",
+                "countRegRAM": "#Value"
+            },
+            "root": "#HierarchyReport",
+            "style": {
+                "#ComponentReport": {
+                    "name": "Components",
+                    "order": [
+                        "modules",
+                        "type",
+                        "instance",
+                        "model",
+                        "usages"
+                    ]
+                },
+                "#ComponentReport.modules": {
+                    "merge": true
+                },
+                "#ComponentReport.usages": {
+                    "merge": true
+                },
+                "#ContentReport": {
+                    "hidden": true
+                },
+                "#FEReport": {
+                    "merge": true,
+                    "order": [
+                        "countFe",
+                        "countLutHDL",
+                        "countLutDff",
+                        "countLutRF",
+                        "countLutCarry",
+                        "countLutCDC",
+                        "countLutCKS"
+                    ]
+                },
+                "#FEReport.countFe": {
+                    "name": "FE"
+                },
+                "#FEReport.countInternal": {
+                    "hide": true
+                },
+                "#FEReport.countLutCDC": {
+                    "name": "CDC"
+                },
+                "#FEReport.countLutCKS": {
+                    "name": "CKS"
+                },
+                "#FEReport.countLutCarry": {
+                    "name": "Carry"
+                },
+                "#FEReport.countLutDff": {
+                    "name": "DFF"
+                },
+                "#FEReport.countLutHDL": {
+                    "name": "Lut"
+                },
+                "#FEReport.countLutRF": {
+                    "name": "RF"
+                },
+                "#HeaderData": {
+                    "hidden": true
+                },
+                "#HierarchyReport.m_nodeCollection": {
+                    "hidden": true
+                },
+                "#ModuleReport": {
+                    "name": "Modules",
+                    "order": [
+                        "name",
+                        "feReport",
+                        "regReport"
+                    ]
+                },
+                "#NodeReport": {
+                    "name": "Nodes"
+                },
+                "#NotificationReport": {
+                    "name": "Notifications",
+                    "order": [
+                        "notificationType",
+                        "message"
+                    ]
+                },
+                "#NotificationReport.notificationType": {
+                    "name": "Type of Messages"
+                },
+                "#RegReport": {
+                    "merge": true,
+                    "order": [
+                        "countReg",
+                        "countRegDff",
+                        "countRegDSP",
+                        "countRegRAM",
+                        "countRegPads"
+                    ]
+                },
+                "#RegReport.countReg": {
+                    "name": "Total Register"
+                },
+                "#RegReport.countRegDSP": {
+                    "name": "DSP"
+                },
+                "#RegReport.countRegDff": {
+                    "name": "DFF"
+                },
+                "#RegReport.countRegPads": {
+                    "name": "Pads"
+                },
+                "#RegReport.countRegRAM": {
+                    "name": "RAM"
+                }
+            }
+        }
+    },
+    "m_moduleCollection": [
+        {
+            "contentReport": {
+                "count1Cy": 27,
+                "count4Lut": 0,
+                "countClockBuffer": 0,
+                "countClockSwitch": 0,
+                "countCrossDomainClock": 0,
+                "countDff": 27,
+                "countDsp": 0,
+                "countGck": 0,
+                "countMemBlock": 0,
+                "countPll": 0,
+                "countRegFileBlock": 0,
+                "countWfg": 1,
+                "countXLut": 0
+            },
+            "feReport": {
+                "countFe": 54,
+                "countInternal": 0,
+                "countLutCDC": 0,
+                "countLutCKS": 0,
+                "countLutCarry": 27,
+                "countLutDff": 27,
+                "countLutHDL": 0,
+                "countLutRF": 0
+            },
+            "name": "~",
+            "occupancy": 54,
+            "regReport": {
+                "countReg": 27,
+                "countRegDSP": 0,
+                "countRegDff": 27,
+                "countRegPads": 0,
+                "countRegRAM": 0
+            }
+        }
+    ],
+    "m_nodeCollection": [
+        {
+            "children": [],
+            "data": "",
+            "model": "blink",
+            "module": "~",
+            "name": "~",
+            "stats": [
+                "NX_DFF : 27",
+                "NX_CY : 7",
+                "NX_IOB : 2",
+                "NX_BFR : 3",
+                "NX_WFG_L : 1"
+            ]
+        },
+        {
+            "children": [],
+            "data": "add_L11 : [ FE: 0 CY: 7 DSP: 0 ]",
+            "model": "add_27u_27u",
+            "module": "",
+            "name": "add_L11",
+            "stats": []
+        }
+    ],
+    "m_notificationCollection": []
+}
